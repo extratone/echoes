@@ -1,0 +1,27 @@
+{
+    "2000210002854483": [
+        {
+            "context_list": [
+                [
+                    "howdy! this neut is in Jok local asking if we're open for recruitment: ",
+                    false
+                ],
+                [
+                    "<player id=\"10008345893\" s=\"Mortichai 1\">",
+                    true
+                ]
+            ],
+            "org_context": "howdy! this neut is in Jok local asking if we're open for recruitment: <player id=\"10008345893\" s=\"Mortichai 1\">",
+            "org_list": [
+                [
+                    "howdy! this neut is in Jok local asking if we're open for recruitment: ",
+                    false
+                ],
+                [
+                    "<player id=\"10008345893\" s=\"Mortichai 1\">",
+                    true
+                ]
+            ]
+        }
+    ]
+}

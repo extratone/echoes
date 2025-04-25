@@ -1,0 +1,29 @@
+[UNISDK]: 2025/04/25 05:47:17:227  NGPush:: Func:-[NGPush startPushWithProjectID:pushKey:delegate:configuration:]_block_invoke, Line:152, Log:用户设置打开了远程推送.
+[UNISDK]: 2025/04/25 05:47:17:230  NGPush:: Func:-[NGPush informRegisterStateWithDeviceToken:error:], Line:588, Log:NGPush SDK 启动成功，获取 Device Token:<a6855797dfb523ac59b63c65527a8e1502aff74772d9da9ba680919d22039692>
+[UNISDK]: 2025/04/25 05:47:17:230  NGPush:: Func:-[NGPush informRegisterStateWithDeviceToken:error:], Line:589, Log:NGPush SDK 启动成功，获取 Regid:<a6855797dfb523ac59b63c65527a8e1502aff74772d9da9ba680919d22039692,apns,com.netease.eve.en>
+[UNISDK]: 2025/04/25 05:47:17:230  NGPush:: Func:-[NGPigeonNetwork _dataTaskWithHTTPMethod:URLString:parameters:headers:success:failure:], Line:114, Log:网络请求系列参数:
+ method: POST
+ URLString: https://sigma-statistics-push.proxima.nie.easebar.com 
+ parameter: {
+    channelType = apns;
+    eventType = ntLogin;
+    mobileModel = "iPad13,9";
+    osVersion = "18.4.1";
+    packageName = "com.netease.eve.en";
+    platform = ios;
+    project = g85naxx2gb;
+    registerId = a6855797dfb523ac59b63c65527a8e1502aff74772d9da9ba680919d22039692;
+    sdkversion = "1.0.4";
+    "system_language" = "en_US";
+    timestamp = 1745578037229;
+    timezone = "America/Chicago";
+    udid = "6346AA6F-B555-493F-B93D-BFD8E5501786";
+    "unisdk_deviceId" = "6346AA6F-B555-493F-B93D-BFD8E5501786";
+} 
+ header: {
+    "Content-Type" = "application/json";
+    auth = 1e9127e598c3b98d8b533456aac2c2b0;
+    platform = apns;
+    "project_code" = g85naxx2gb;
+    timestamp = 1745578037;
+}

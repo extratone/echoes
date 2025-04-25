@@ -1,0 +1,21 @@
+{
+    "ignore_index_list": [
+        144,
+        70,
+        126,
+        107,
+        165,
+        221,
+        84,
+        284,
+        170,
+        198,
+        108,
+        191,
+        96,
+        203
+    ],
+    "ignore_message_map": {
+        "Change fleet type": true
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "10002854483": {
+        "ad_expire_time": null,
+        "ad_index": null,
+        "first_enter_station_time": "2025-04-25",
+        "opened_page": [
+            "climb_tower",
+            "reward_login.main",
+            "culture_settlement",
+            "hibernator",
+            "growth_fund_panel",
+            "omega_reward_event",
+            "social_network",
+            "backflow.backflow_login",
+            "backflow.backflow_task",
+            "backflow.backflow_integral",
+            "backflow.backflow_giftbag",
+            "newbie_accelerate_sp",
+            "accumulated_recharge",
+            "live_halloween",
+            "celebration.celebration_bp_main"
+        ]
+    },
+    "10008635692": {
+        "ad_expire_time": null,
+        "ad_index": null
+    }
+}

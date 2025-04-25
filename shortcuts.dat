@@ -1,0 +1,11 @@
+{
+    "eve": {
+        "repo": "gui_v1/icon/main/icon_cangku.png",
+        "assem": "gui_v1/icon/main/icon_zhuangpei.png",
+        "skill": "gui_v1/icon/all/icon_main_keji.png",
+        "task": "gui_v1/icon/all/icon_main_jiyu.png"
+    },
+    "season": {
+        "repo": "gui_v1/icon/main/icon_cangku.png"
+    }
+}

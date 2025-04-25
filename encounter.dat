@@ -1,0 +1,18 @@
+{
+    "2000210002854483": {
+        "1": true,
+        "2": false,
+        "3": false,
+        "4": false,
+        "5": true,
+        "6": true,
+        "7": true,
+        "8": false,
+        "9": false,
+        "advanced_task_reward_warn_once": true,
+        "has_showed_reddot": false,
+        "tutorial_resident_box_advanced_enable": false,
+        "tutorial_resident_box_novice_task_enable": false,
+        "tutorial_resident_box_task_id": 9996
+    }
+}

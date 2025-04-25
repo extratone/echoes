@@ -1,0 +1,33 @@
+{
+    "2000210002854483": {
+        "1000_pw_11": null,
+        "1000_pw_12": null,
+        "chat_mini_channel_filter": [
+            [
+                1,
+                null
+            ],
+            [
+                7,
+                null
+            ]
+        ],
+        "join_channel_record": [
+            [
+                1000,
+                12,
+                "Rookie Help\u00b2"
+            ],
+            [
+                1000,
+                11,
+                "Rookie Help\u00b9"
+            ]
+        ],
+        "joined_custom_channels": [],
+        "mini_local_player_sort": null
+    },
+    "2000210008635692": {
+        "joined_custom_channels": []
+    }
+}
