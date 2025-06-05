@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	    <title>EVE Echoes, the spaceship sandbox MMO on mobile</title>
+	<meta name="from" content="git:EVEECHOES/eveechoes-gw-pc-20200731">
+	<meta name="author" content="网易，NetEase Inc.">
+	<meta name="copyright" content="网易，NetEase Inc.">
+	<meta name="front-end technicist" content="huangchuan">
+	<meta name="editor" content="huangyi">
+	<meta name="pmid" content="39572">
+		<meta name="keywords" content="EVE Echoes, EVE, EVE mobile, ccp, ccp games, netease, netease games, Sci-fi, sandbox, MMO, galaxy, starwar, space, strategy, interstellar">
+		<meta name="description" content="EVE Echoes is a next-gen mobile spaceship MMO game based upon hallmark EVE Online design principles. In EVE Echoes, players will be able to forge their own path to glory within a massive space sandbox environment, forming alliances with other pilots from across the galaxy to shape the game's persistent universe. ">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<meta name="renderer" content="webkit">
+		<meta name="applicable-device" content="PC">
+		<meta name="format-detection" content="telephone=no">
+		<meta name="format-detection" content="address=no">
+		<meta name="renderer" content="webkit">
+
+		<!--facebook Cards Start -->
+		<!-- facebook根据og:url设置的地址拿标题、描述、图片 ，这个地址必须是可以访问的页面-->
+		<meta property="og:url" content="https://www.eveechoes.com/updata/20201106/33524_914252.html">
+		<meta property="og:title" content="Nov. 11 Update Preview">
+		<meta property="og:description" content="In our upcoming November 11 update, we have added additional balance changes, encounters, contracts and PvE difficulty changes. You can see below for the specific contents.">
+		<meta property="og:image" content="https://nie.res.netease.com/r/pic/20201106/a1472c90-be69-4b19-8fb8-c5675cd01310.jpg">
+		<!--facebook Cards End-->
+
+		<!--Twitter Cards Start -->
+		<meta name="twitter:card" content="summary">
+		<meta property="og:url" content="//www.eveechoes.com/updata/20201106/33524_914252.html">
+		<meta name="twitter:title" content="Nov. 11 Update Preview">
+		<meta name="twitter:description" content="In our upcoming November 11 update, we have added additional balance changes, encounters, contracts and PvE difficulty changes. You can see below for the specific contents.">
+		<meta name="twitter:image" content="https://nie.res.netease.com/r/pic/20201106/a1472c90-be69-4b19-8fb8-c5675cd01310.jpg">
+		<!--Twitter Cards End-->
+
+		
+		<link rel="dns-prefetch" href="https://nie.res.netease.com">
+		<link rel="stylesheet" href="../../pc/gw/20200803170113/css/list_a1385dd.css">
+		<script data-fixed="true">!function(){"http:"==document.location.protocol&&"cms.tc.netease.com"!=window.location.host&&(window.location=location.href.replace("http://","https://"))}();</script>
+		<!--ignore-->
+	<!--cms新自动跳转代码 start -->
+<script type="text/javascript">
+!function(){
+var PCUrl = '//www.eveechoes.com/updata/20201106/33524_914252.html';var MobileUrl = '//www.eveechoes.com/m/updata/20201106/33524_914252.html';var isMobile = /iphone|android|ipod/i.test(navigator.userAgent.toLowerCase()) == true;var UrlPath =  window.location.pathname;var PCPath = PCUrl.match(/\/\/[^\/]+(.+)/i) ? PCUrl.match(/\/\/[^\/]+(.+)/i)[1] : "";var MobilePath = MobileUrl.match(/\/\/[^\/]+(.+)/i) ?  MobileUrl.match(/\/\/[^\/]+(.+)/i)[1] : "";if(isMobile && UrlPath == MobilePath)return false;else if(isMobile && MobilePath){window.location.href = MobileUrl + window.location.search;}if(!isMobile && UrlPath == PCPath)return false;
+else if(!isMobile && PCPath){window.location.href = PCUrl + window.location.search;}}();
+</script>
+<!--cms新自动跳转代码 end --></head>
+
+	<body>
+		<div id="share_content" style="display:none">
+			<div id="share_title" pub-name="分享标题">Nov. 11 Update Preview</div>
+			<div id="share_url" pub-name="分享链接">//www.eveechoes.com/updata/20201106/33524_914252.html</div>
+			<img id="share_pic" pub-name="分享图片" src="https://nie.res.netease.com/r/pic/20201106/a1472c90-be69-4b19-8fb8-c5675cd01310.jpg">
+			<div id="share_desc" pub-name="分享内容">In our upcoming November 11 update, we have added additional balance changes, encounters, contracts and PvE difficulty changes. You can see below for the specific contents.</div>
+		</div>
+		  
+		<!--顶条-->
+		<!--<div id="NIE-topBar"></div> -->
+		<!--外框-->
+		<div class="wrap wrap1">
+	      <div class="nav_tp">
+			  <a href="../../index.html" class="logo" title="logo"></a>
+			  <div class="nav_dh">
+				<a href="../../index.html" class="nav_a1" target="_blank">HOME</a>
+				<!-- <a href="//www.eveechoes.com/index.html#page2" class="nav_a2" target="_blank">FEATURES</a>
+				<a href="//www.eveechoes.com/index.html#page3" class="nav_a3" target="_blank">FACTIONS</a>
+				<a href="//www.eveechoes.com/index.html#page4" class="nav_a4" target="_blank">REWARDS</a> -->
+				<a href="../../news/index.html" class="nav_a5 on" target="_blank">NEWS</a>
+				<!-- <a href="//www.eveechoes.com/contest/" class="nav_a6" target="_blank">VIDEO CONTEST</a>
+				<a href="//www.eveechoes.com/contestresults/" class="nav_a8" target="_blank">WINNERS ANNOUNCEMENT</a> -->
+				<a href="../../faq/index.html" class="nav_a7" target="_blank">FAQ</a>
+              </div>
+              <!-- <div class="fxl">
+				<a href="https://www.facebook.com/EVEEchoes" class="fb_btn" target="_blank"></a>
+				<a href="https://twitter.com/EveEchoes" class="tw_btn" target="_blank"></a>
+				<a href="https://discord.gg/J5XXkJZ " class="des_btn" target="_blank"></a>      
+				<a href="https://www.youtube.com/channel/UCd8xVjWv8A-E62knESgelKg/featured" class="ytb_btn" target="_blank"></a>
+				<a href="https://vk.com/eveechoes" class="vk_btn" target="_blank"></a>
+				<a href="https://www.instagram.com/eveechoes/" class="ins_btn" target="_blank"></a>
+			 </div>  	 -->
+			 <div class="language-wrap">
+				<div class="language-txt">
+					<i></i><span>En</span><em></em>
+				</div>
+				<ul class="language-list">
+					<li class="on">
+						<a href="https://www.eveechoes.com/" class="en"><span></span></a>
+					</li>
+					<li>
+						<a href="../../ru.html" class="ru"><span></span></a>
+					</li>
+				</ul>
+			  </div>
+			 <div class="line"></div> 		
+		  </div>
+          <p class="navMark"><a href="../../index.html" target="_blank">Homepage / </a><a href="../../news/index.html" target="_blank">News / </a>News Details <a href="../../news/updata/index.html" class="fh_btn" target="_blank"></a></p>
+          <div class="newDetail">
+              <div class="title">
+                Nov. 11 Update Preview
+                  <p class="date">2020-11-06</p>
+              </div>
+              <div class="artCon">
+                  <p><span style="font-size:18px;"><span style="font-family:等线;">In our upcoming November 11 update, we have added additional balance changes, encounters, contracts and PvE difficulty changes. You&nbsp;can see below for the specific contents. </span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">We also have something to say about the Skill Point reset mechanic: Because we have been burning the midnight oil to further develop other game mechanics, while also compiling the data to ensure a smooth Skill Point reset functionality, we ended up not finishing the Skill Point reset mechanic on time. Though it was mentioned in a previous AMA that this feature may not be released with the November 11 Update, we still are unhappy that we weren't able to complete it on time. We are still working on this though, and we hope you can all understand us as we continue to improve EVE Echoes for everyone!</span></span></p>
+
+<p><span style="font-size:18px;"><strong><span style="font-family:等线;">N</span></strong><strong><span style="font-family:等线;">ovember 11 Update Details</span></strong><strong><span style="font-family:等线;">:</span></strong></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Based on a combination of all of your great feedback and a lot of the data we've been collecting these past few months, we will be applying several balance changes. These are meant to both allow players to progress further in PvE Encounters at a better pace (to improve the experience with progression in difficulties) while creating a more realistic universe (with NPC actions and difficulty). In balancing all of this and with the new modules added, we have also further balanced ship roles. We hope this will provide a more exhilarating experience as we all go forward together in making the universe more realistic and fun for all.</span></span></p>
+
+<p><span style="font-size:18px;"><strong><span style="font-family:等线;">==Module Balancing==</span></strong></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Small Snubnosed Railgun Optimal Range +20%, Accuracy Falloff +20%</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Small Laser, Railgun, Cannon Damage Multiplier +10%</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Small Missile Launcher Flight Time -20%</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Small Torpedo Launcher Flight Time +20%</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Medium Laser, Railgun, Cannon Damage Multiplier +5%</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Medium Beam Laser Tracking Velocity +20%</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Medium Snubnosed Railgun Optimal Range +20%, Accuracy Falloff +20%</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Medium Autocannon Tracking Velocity +10%</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Medium Strike Cannon Tracking Velocity -15%</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Medium Rapid Missile Launcher Damage Multiplier -15%, Flight Time -15%</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Medium Missile Launcher Damage Multiplier +20%</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Medium Torpedo Launcher Damage Multiplier +20%</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Large Laser, Railgun, Cannon, Missile Damage Multiplier +20%</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Large Torpedo Launcher Flight Velocity +20%</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Medium Drone HP +50%</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Large Drone HP +100%</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Sensor Dampening Strength -20%</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Optimal Range for Energy Nosferatu and Energy Neutralizer increases with the metalevel.</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">-------------------------------------------------------------------------------------------</span></span></p>
+
+<p><span style="font-size:18px;"><strong><span style="font-family:等线;">==</span></strong><strong><span style="font-family:等线;">Adjustments to </span></strong><strong><span style="font-family:等线;">Ship </span></strong><strong><span style="font-family:等线;">Role Bonus</span></strong><strong><span style="font-family:等线;">es==</span></strong></span></p>
+
+<p><span style="font-size:18px;"><strong><span style="font-family:等线;">1. Bonus Modules</span></strong></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">There are no Weapon Disruptors or Electronic Jammers among the new modules—they have been&nbsp;replaced by Tracking Disruptors and Guidance Disruptors. </span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Ships affected by this change include:</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Crucifier, Griffin, Arbitrator, Arbitrator Covert Ops, Arbitrator II Covert Ops, Blackbird, Blackbird Covert Ops, Blackbird II Covert Ops and Scorpion.</span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:18px;"><strong><span style="font-family:等线;">2. Bonus Skills</span></strong></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">We have added "Signal Disruption" and 2 other new skills, so several bonus skills for disruption ships have been changed. </span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Ships affected by this adjustment include:</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Maulus, Crucifier, Griffin, Vigil, Arbitrator, Blackbird, Celestis and Bellicose.</span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:18px;"><strong><span style="font-family:等线;">3. Disruption Range Bonus reduced</span></strong></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Since the disruption modules have a fairly&nbsp;long range, we have canceled Optimal Range bonuses for several Frigates. </span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Ships affected by this adjustment include:</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Maulus, Crucifier, Griffin and Vigil.</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Bonus 1: Optimal Range bonus changed from +5% to +0% (removed)</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Scorpion</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Bonus 1: Optimal Range bonus changed from +25% to +10%</span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:18px;"><strong><span style="font-family:等线;">4. Jam Strength Bonus </span></strong><strong><span style="font-family:等线;">R</span></strong><strong><span style="font-family:等线;">educed</span></strong></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">We have shortened the cooldown for Advanced Stealth ships after they decloak and lowered the Jam Strength Bonus for several battleships. </span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Ships affected by this adjustment include:</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Arbitrator II Covert Ops, Blackbird II Covert Ops, Celestis II Covert Ops and Bellicose II Covert Ops.</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Bonus 1: Jammer Strength bonus changed from +10% to +7.5% </span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Role Bonus: Cooldown duration after decloaking&nbsp;reduced by 50%</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Scorpion</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Bonus 1: Disruption Strength bonus changed from +15% to +10%</span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:18px;"><strong><span style="font-family:等线;">5. IC Frigate </span></strong><strong><span style="font-family:等线;">Changes</span></strong></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">As the Warp Scrambler becomes available, specialized IC Frigates are now able to do what they were supposed to do. Thus, we removed the Stasis Webifier Range bonus from 8 IC Frigates.</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Warp Scramblers are very capable, so the bonuses for lock speed and Warp Scrambler Jammer Strength were also removed.</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">These ships can now increase the range of Warp Disruptors and Warp Scramblers simultaneously (+3% or +5% per&nbsp;level).</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Ships affected by this adjustment:</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Executioner Interceptor, Condor Interceptor, Atron Interceptor and Slasher Interceptor.</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Executioner II Interceptor, Condor II Interceptor, Atron II Interceptor and Slasher II Interceptor.</span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:18px;"><strong><span style="font-family:等线;">6. Damage/Range Changes</span></strong></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Worm</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Damage changed from +175% to +200%</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Rattlesnake</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Damage changed from +425% to +450%</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Cruor and Daredevil</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Damage changed from +20% to +25%</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Ashimmu, Vigilant and Vindicator</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Damage changed from +10% to +12%</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Tormentor, Merlin, Incursus and Rifter</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Damage changed from +5% to +7.5%</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Omen</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Cooldown Time changed from -3% to -4%</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Omen Navy Issue</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Cooldown Time changed from -2% to -3%</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Thorax Prototype</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Damage changed from +4% to +5%</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Stabber</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Falloff Range changed from +5% to +7.5%</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Stabber Fleet Issue</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Falloff Range changed from +7.5% to +10%</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Ferox, Ferox Guardian and Ferox II Guardian</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Optimal Range changed from +5% to +10%</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Hurricane Prototype</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Damage changed from +3% to +5%</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Harbinger Prototype</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Damage changed from +8% to +9%</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Brutix and Harbinger</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Damage changed from +5% to +6%</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Vindicator</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Stasis Webifier Optimal Range changed from +20% to +10%</span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:18px;"><strong><span style="font-family:等线;">==Bug Fixes==</span></strong></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Fixed the issue where the 50% warp acceleration for Dramiel, Cynabal, and Machariel </span><span style="font-family:pmingliu;">failed to</span><span style="font-family:等线;">&nbsp;display (the acceleration was working though).</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">-------------------------------------------------------------------------------------------</span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:18px;"><strong><span style="font-family:等线;">==NPC Pirate Balancing==</span></strong></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Here in the EVE Echoes team, we place great importance on creating an immersive cosmic experience for our players, and&nbsp;effective&nbsp;NPC pirates add to&nbsp;this experience. Our long-term goal is to minimize the differences between NPC pirates and actual players. We want to create a universe that feels authentic, where&nbsp;its inhabitants have "souls," as well as a better, more challenging PvE experience—this update is a small step towards that goal.</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Of course, as always, we have collected&nbsp;a ton of&nbsp;feedback from players who have played on the test server and made additional adjustments accordingly. It seems that we might have strengthened the pirates a tad too much, as some of the players are now having a significantly harder time farming them. Therefore, we're trying our best to make smaller, subtler&nbsp;changes to make the transition between each update</span>&nbsp;<span style="font-family:等线;">as smooth as possible.</span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:18px;"><strong><span style="font-family:等线;">==Pre-Patch NPC </span></strong><strong><span style="font-family:等线;">Pirates</span></strong><strong><span style="font-family:等线;">==</span></strong></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">1. Use the same batch of ships and modules</span><span style="font-family:pmingliu;">&nbsp;as players, but </span><span style="font-family:等线;">each enemy always used the same ship and module setup.</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">2. Due to technical&nbsp;issues, some pirates might spawn without a weapon or without some essential modules&nbsp;for their roles.</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">3. The fleet configuration for Remote-Repairing/Disruption/Electronic Warfare pirates is ineffective, resulting in 50% of the pirates providing little-to-no help in combat.</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">4. Due to technical&nbsp;issues, it&nbsp;was difficult to update new weapons for pirates.</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">5. The configuration for pirates in anomalies is fixed, resulting in </span><span style="font-family:pmingliu;">repeated encounters with </span><span style="font-family:等线;">the same set of pirates</span><span style="font-family:pmingliu;">.</span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:18px;"><strong><span style="font-family:等线;">==</span></strong><strong><span style="font-family:等线;">Post-</span></strong><strong><span style="font-family:等线;">P</span></strong><strong><span style="font-family:等线;">atch </span></strong><strong><span style="font-family:等线;">NPC </span></strong><strong><span style="font-family:等线;">Pirates</span></strong><strong><span style="font-family:等线;">==</span></strong></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">1. Each pirate can use a variety of ships and weapons, randomized under specific algorithms. However, each type of pirate is assigned to a certain kind of ship to avoid an awkward situation (for example: having a massive fleet of battleships going for you in an anomaly).</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">2. We've updated the mechanics to allow&nbsp;all pirates to be&nbsp;able to fulfill their true potential.</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">3. The new pirates are now able to&nbsp;remote repair one another, and the repair amount has&nbsp;also adjusted accordingly.</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">4. We now have more flexibility to adjust their item drops.</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">Again, we implemented these adjustments to pirates in order to provide a more immersive experience for our players. We hope you enjoy these changes.</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">-------------------------------------------------------------------------------------------</span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:18px;"><strong><span style="font-family:等线;">==Encounter System Changes==</span></strong></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">In&nbsp;order to allow players to gradually handle more difficult missions more smoothly, we’ve made changes to Encounters. </span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">1. New Difficulty for Encounters: Normal and Hard. </span><span style="font-family:pmingliu;">D</span><span style="font-family:等线;">ifficulty </span><span style="font-family:pmingliu;">selection now consists of</span><span style="font-family:等线;">&nbsp;Beginner, Normal, Advanced, Hard and Expert</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">2. Rebalanced rewards for all News missions</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">3. Rebalanced rewards for Storyline missions</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">4. Adjusted the combat difficulty of Storyline missions. Added an additional wave of enemies to the combat scenarios </span><span style="font-family:pmingliu;">in</span><span style="font-family:等线;">&nbsp;every Storyline mission.</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">5. Added a new type of supply box: Module Blueprint Supply Box</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">6. Greatly increased the item volume in neutral transport missions.</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">7. Completing neutral transport missions will grant you Module Blueprint Supply Boxes.</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">8. Reduced the probability of </span><span style="font-family:pmingliu;">listing </span><span style="font-family:等线;">transport missions and mining missions on the mission board.</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">-------------------------------------------------------------------------------------------</span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:18px;"><strong><span style="font-family:等线;">==Contract System Changes==</span></strong></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">1. Added available contracts for Corporations and Alliances.</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">2. Contracts can now be shared across all channels.</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">3. Added a shortcut for contracts that </span><span style="font-family:pmingliu;">display</span><span style="font-family:等线;">s when selecting an item under Inventory.</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">4. Added a feature to reject private contracts.</span></span></p>
+
+<p><span style="font-size:18px;"><span style="font-family:等线;">5.</span><span style="font-family:pmingliu;">&nbsp;Adjusted</span><span style="font-family:等线;">&nbsp;the value difference reminder</span><span style="font-family:pmingliu;">. It is</span>&nbsp;<span style="font-family:pmingliu;">now </span><span style="font-family:等线;">a lot more noticeable in order to further reduce the possibility of players being scammed.</span></span></p>
+              </div>
+          </div>
+		
+        </div>
+        <div class="page6">
+            <div class="fotLogo"></div>
+<div class="footer">
+  <div class="fotCon">
+  	<a href="https://www.neteasegames.com/" target="_blank" class="netease netease2"></a>
+    <!--<img class="netease" src="https://www.eveechoes.com/pc/gw/20200803170113/img/netease_8265443.png" alt="netease games" />-->
+    <img class="netease netease1" src="../../pc/gw/20200803170113/img/icon_9f96a2f.png" alt="CCP">
+    <div class="txt">
+      <p>Privacy Policy, Terms and Conditions</p>
+      <p>©2021 NetEase, Inc.All Rights Reserved</p>
+    </div>
+    <div class="txt noMr">
+      <p>Contact Us: <a href="mailto:eveechoes@global.netease.com">eveechoes@global.netease.com</a></p>
+      <p><a href="https://unisdk.update.netease.com/html/latest_v30.html" target="_black">Privacy Policy</a> <a href="https://unisdk.update.netease.com/html/latest_v30.html" target="_black">Refund Policy</a></p>
+    </div>
+    <div class="txt">
+      <p>Company Address: Unit 802,of 8th Floor of Chuang's Tower,</p>
+      <p>30-32 Connaught Road,Central,Hong Kong</p>
+    </div>
+  </div>
+  <div class="shares">
+    <a href="https://www.facebook.com/EVEEchoes" title="FaceBook" target="_blank" class="fb"></a>
+    <a href="https://twitter.com/EveEchoes" title="twitter" target="_blank" class="tw"></a>
+    <a href="https://discord.com/invite/yYxH3t5G4u" target="_blank" title="Discord" class="discord"></a>
+    <a href="https://www.youtube.com/channel/UCd8xVjWv8A-E62knESgelKg/featured" target="_blank" title="YouTube" class="YouTube"></a>
+    <a href="https://vk.com/eveechoes" class="vk_btn1" target="_blank"></a>
+    <a href="https://www.instagram.com/eveechoes/" class="ins_btn1" target="_blank"></a>
+  </div>
+</div>
+
+       </div>	
+		<!--底条-->
+		<!--<div id="NIE-copyRight"></div> -->
+		<!-- JS放底部-->
+		<script src="https://comm.res.easebar.com/js/jquery(mixNIE).1.11.js"></script>
+		<script charset="utf-8" type="text/javascript" src="../../pc/gw/20200803170113/js/common_d0c8c67.js"></script>
+		<script charset="utf-8" src="../../pc/gw/20200803170113/js/data_4e26890.js"></script>
+		<!-- <script charset="utf-8" type="text/javascript" src="https://www.eveechoes.com/pc/gw/20200803170113/js/share_1f7cdf2.js"></script> -->
+		<script charset="utf-8" src="../../pc/gw/20200803170113/js/public_e8de1fc.js"></script>
+		<script charset="utf-8" type="text/javascript" src="../../pc/gw/20200803170113/js/list_2e408d0.js"></script>
+	</body>
+
+</html>
+<!--This is Git Project From EVEECHOES/eveechoes-gw-pc-20200731(16066)-->
+<!--stamp:710028ff-46a7-4c0a-a82c-f9090ab19d9d,tplId:23637,newsId:914252,tplName:eve海外版-官网改版-pc[news][正式][16066]-->
