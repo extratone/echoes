@@ -2,6 +2,12 @@
 
 ![Dieselgoth Character Sheet](https://github.com/user-attachments/assets/f1a92afd-ef1b-42b8-928e-64aca990769d)
 
+## Application Meta
+
+- BundleID: `com.netease.eve.en`
+
+---
+
 ## Hardware Information
 
 System Status: Device Info (2025-05-07T14:01:27)
